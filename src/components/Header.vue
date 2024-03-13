@@ -69,7 +69,7 @@ import logo from "../assets/icons/logo.vue";
           </li>
           <li class="hover:bg-black px-2 rounded-md">
             <div
-              class="rounded-full text-black bg-white text-center w-[10px] h-[10px] text-[8px] translate-x-6 -translate-y-1 absolute"
+              class="rounded-full text-black bg-white text-center w-[16px] h-[16px] text-[11px] translate-x-6 -translate-y-1 absolute"
             >
               3
             </div>
