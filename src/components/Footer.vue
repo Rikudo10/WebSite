@@ -1,7 +1,3 @@
-<script setup>
+<script setup></script>
 
-</script>
-
-<template>
-Footer............................................
-</template>
+<template></template>

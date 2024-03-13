@@ -4,9 +4,22 @@ import logo from "../assets/icons/logo.vue";
 </script>
 
 <template>
-  <nav class="bg-[#eb5757] fixed w-full z-20 top-0 start-0">
+  <nav class="bg-black fixed w-full z-20 top-0 start-0">
     <div
-      class="w-[62%] flex flex-wrap items-center justify-between mx-auto  p-4"
+      class="w-[62%] flex flex-wrap items-center justify-between mx-auto p-4"
+    >
+      <div class="flex w-full gap-2 justify-center">
+        <button class="bg-[#eb5757] text-white py-1 px-5 rounded-full">
+          Announcement
+        </button>
+        <p class="text-white text-[20px]">How we're responding to COVID-19</p>
+      </div>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default"></div>
+    </div>
+  </nav>
+  <nav class="bg-[#eb5757] fixed w-full z-20 top-[62px] start-0">
+    <div
+      class="w-[62%] flex flex-wrap items-center justify-between mx-auto p-4"
     >
       <logo />
       <button
@@ -35,29 +48,31 @@ import logo from "../assets/icons/logo.vue";
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-16 rtl:space-x-reverse md:mt-0 md:border-0"
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-10 rtl:space-x-reverse md:mt-0 md:border-0"
         >
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-white md:p-0"
-              aria-current="page"
+          <li class="hover:bg-black px-2 rounded-md">
+            <a href="#" class="block text-white md:p-0" aria-current="page"
               >Home</a
             >
           </li>
-          <li>
-            <a href="#" class="block py-2 px-3 text-white md:p-0">About</a>
+          <li class="hover:bg-black px-2 rounded-md">
+            <a href="#" class="block text-white md:p-0">About</a>
           </li>
-          <li>
-            <a href="#" class="block py-2 px-3 text-white md:p-0">Shop</a>
+          <li class="hover:bg-black px-2 rounded-md">
+            <a href="#" class="block text-white md:p-0">Shop</a>
           </li>
-          <li>
-            <a href="#" class="block py-2 px-3 text-white md:p-0">Donate</a>
+          <li class="hover:bg-black px-2 rounded-md">
+            <a href="#" class="block text-white md:p-0">Donate</a>
           </li>
-          <li>
-            <a href="#" class="block py-2 px-3 text-white md:p-0">Contact</a>
+          <li class="hover:bg-black px-2 rounded-md">
+            <a href="#" class="block text-white md:p-0">Contact</a>
           </li>
-          <li>
+          <li class="hover:bg-black px-2 rounded-md">
+            <div
+              class="rounded-full text-black bg-white text-center w-[10px] h-[10px] text-[8px] translate-x-6 -translate-y-1 absolute"
+            >
+              3
+            </div>
             <birds />
           </li>
         </ul>

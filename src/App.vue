@@ -2,5 +2,4 @@
 
 <template>
   <RouterView />
-  <div>Hi</div>
 </template>
