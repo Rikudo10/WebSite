@@ -8,6 +8,11 @@ const router = createRouter({
       name: 'home',
       component: () => import('../views/pages/Home.vue')
     },
+    {
+      path: '/Donate',
+      name: 'donate',
+      component: () => import('../views/pages/Donate.vue')
+    },
   ]
 })
 
