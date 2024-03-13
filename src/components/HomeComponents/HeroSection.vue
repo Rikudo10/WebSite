@@ -12,7 +12,7 @@ const { HomePage } = useHome();
         alt=""
       />
     </div>
-    <div class="z-10 relative w-1/2 p-4 mx-auto">
+    <div class="z-10 relative w-[62%] p-4 mx-auto">
       <div class="mt-56">
         <div class="w-[450px]">
           <h1 class="text-white text-6xl pb-6 font-bold" v-text="HomePage[0].hero.title" />
