@@ -5,7 +5,7 @@ const { HomePage } = useHome();
 </script>
 
 <template>
-  <div>
+  <div class="mb-16">
     <div class="ml-[20%] mb-12">
       <h3 class="text-2xl" v-text="HomePage[0].products.title4" />
       <h2 class="text-4xl font-bold" v-text="HomePage[0].products.title5" />
