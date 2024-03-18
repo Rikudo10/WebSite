@@ -23,7 +23,6 @@
             adventure complete.
           </p>
         </div>
-
         <button
           class="bg-transparent hover:bg-[white] text-[white] font-semibold hover:text-black py-1.5 px-6 border border-white rounded"
         >
