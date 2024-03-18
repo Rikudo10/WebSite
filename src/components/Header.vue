@@ -19,7 +19,7 @@ import logo from "../assets/icons/logo.vue";
   </nav>
   <nav class="bg-[#eb5757] fixed w-full z-20 top-[62px] start-0">
     <div
-      class="w-[62%] flex flex-wrap items-center justify-between mx-auto p-4"
+      class="w-[61%] flex flex-wrap items-center justify-between mx-auto p-4"
     >
     <router-link to="/">
       <logo />
