@@ -4,7 +4,7 @@ import logo from "../assets/icons/logo.vue";
 </script>
 
 <template>
-  <nav class="bg-black fixed w-full z-20 top-0 start-0">
+  <nav class="bg-[#222] fixed w-full z-20 top-0 start-0">
     <div
       class="w-[62%] flex flex-wrap items-center justify-between mx-auto p-4"
     >
@@ -21,9 +21,9 @@ import logo from "../assets/icons/logo.vue";
     <div
       class="w-[62%] flex flex-wrap items-center justify-between mx-auto p-4"
     >
-    <router-link to="/">
-      <logo />
-    </router-link>
+      <router-link to="/">
+        <logo />
+      </router-link>
       <button
         data-collapse-toggle="navbar-default"
         type="button"
@@ -52,33 +52,33 @@ import logo from "../assets/icons/logo.vue";
         <ul
           class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-10 rtl:space-x-reverse md:mt-0 md:border-0"
         >
-        <router-link to="/">
-          <li class="hover:bg-black px-2 rounded-md">
-            <a href="#" class="block text-white md:p-0" aria-current="page"
-              >Home</a
-            >
-          </li>
-        </router-link>
+          <router-link to="/">
+            <li class="hover:bg-black px-2 rounded-md">
+              <a href="#" class="block text-white md:p-0" aria-current="page"
+                >Home</a
+              >
+            </li>
+          </router-link>
           <router-link to="/About">
-          <li class="hover:bg-black px-2 rounded-md">
-            <a href="#" class="block text-white md:p-0">About</a>
-          </li>
-        </router-link>
-        <router-link to="/Shop">
-          <li class="hover:bg-black px-2 rounded-md">
-            <a href="#" class="block text-white md:p-0">Shop</a>
-          </li>
-        </router-link>
-        <router-link to="/Donate">
-          <li class="hover:bg-black px-2 rounded-md">
-            <a href="#" class="block text-white md:p-0">Donate</a>
-          </li>
-        </router-link>
-        <router-link to="/Contact">
-          <li class="hover:bg-black px-2 rounded-md">
-            <a href="#" class="block text-white md:p-0">Contact</a>
-          </li>
-        </router-link>
+            <li class="hover:bg-black px-2 rounded-md">
+              <a href="#" class="block text-white md:p-0">About</a>
+            </li>
+          </router-link>
+          <router-link to="/Shop">
+            <li class="hover:bg-black px-2 rounded-md">
+              <a href="#" class="block text-white md:p-0">Shop</a>
+            </li>
+          </router-link>
+          <router-link to="/Donate">
+            <li class="hover:bg-black px-2 rounded-md">
+              <a href="#" class="block text-white md:p-0">Donate</a>
+            </li>
+          </router-link>
+          <router-link to="/Contact">
+            <li class="hover:bg-black px-2 rounded-md">
+              <a href="#" class="block text-white md:p-0">Contact</a>
+            </li>
+          </router-link>
           <li class="hover:bg-black px-2 rounded-md">
             <div
               class="rounded-full text-black bg-white text-center w-[16px] h-[16px] text-[11px] translate-x-6 -translate-y-1 absolute"
