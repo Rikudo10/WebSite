@@ -5,9 +5,11 @@ import Logo from "../assets/icons/logo.vue";
   <footer class="bg-[#222222] pb-4 p-16">
     <div class="w-full  mx-auto flex flex-col gap-y-14">
       <div class="flex items-center justify-between px-5">
-        <div class="ml-[18%]">
-        <Logo />
-      </div>
+        <div class="ml-[17%]">
+          <router-link to="/">
+            <Logo />
+          </router-link>
+          </div>
         <div class="flex flex-wrap items-center gap-4 mr-[17%]">
           <img class="w-6 h-6" src="../assets/icons/Twitter.svg" alt="Logo" />
           <img class="w-6 h-6" src="../assets/icons/Facebook.svg" alt="Logo" />
