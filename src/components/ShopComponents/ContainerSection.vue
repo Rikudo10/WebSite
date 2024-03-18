@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-16 mt-20 relative">
+    <div class="mb-16 mt-20 relative ">
       <div class="relative w-[60%] ml-[20%] mb-72">
         <img 
           class="h-[320px] absolute w-full object-cover rounded"
