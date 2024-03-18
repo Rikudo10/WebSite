@@ -9,8 +9,7 @@ import Logo from "../assets/icons/logo.vue";
           <router-link to="/">
             <Logo />
           </router-link>
-        </div>
-        <div class="flex flex-wrap items-center gap-4 mr-[17%]">
+     <div class="flex flex-wrap items-center gap-4 mr-[17%]">
           <a href="#"
             ><img class="w-6 h-6" src="../assets/icons/Twitter.svg" alt="Logo"
           /></a>
