@@ -28,7 +28,7 @@ const { AboutPage } = useAbout();
           />
         </div>
         <button
-          class="bg-transparent hover:bg-[white] text-[white] font-semibold hover:text-black py-1.4 px-6 border border-white rounded"
+          class="bg-transparent hover:bg-[white] text-[white] font-semibold hover:text-black py-1.5 px-6 border border-white rounded"
         >
           Shop Merch
         </button>
