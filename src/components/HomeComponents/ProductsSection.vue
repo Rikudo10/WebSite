@@ -20,7 +20,7 @@ const { HomePage } = useHome();
             alt=""
           />
           <p
-            class="text-center text-2xl mb-2"
+            class="text-center flex justify-center xl:text-2xl text-lg font-medium mb-2"
             v-text="HomePage[0].products.title"
           />
           <p class="text-center font-bold">$ 200.00 USD</p>
@@ -39,10 +39,10 @@ const { HomePage } = useHome();
             alt=""
           />
           <p
-            class="text-center text-2xl mb-2"
+            class="text-center flex justify-center xl:text-2xl text-lg font-medium mb-2"
             v-text="HomePage[0].products.title2"
           />
-          <p class="text-center font-bold">$ 35.00 USD</p>
+          <p class="text-center  font-bold">$ 35.00 USD</p>
           <div class="text-center mt-4">
             <button
               class="bg-[red] hover:bg-[black] text-[white] font-semibold py-2 px-6 border border-white rounded"
@@ -58,7 +58,7 @@ const { HomePage } = useHome();
             alt=""
           />
           <p
-            class="text-center text-2xl mb-2"
+            class="text-center flex justify-center xl:text-2xl text-lg font-medium mb-2"
             v-text="HomePage[0].products.title"
           />
           <p class="text-center font-bold">

@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div
-    class="border-2 border-black w-[20%] py-8 mx-auto rounded grid grid-cols-1 text-center mt-12 mb-12 gap-8"
+    class="border-2 border-black w-[40%] lg:w-[20%] py-8 mx-auto rounded grid grid-cols-1 text-center mt-12 mb-12 gap-8"
   >
     <div>
       <button

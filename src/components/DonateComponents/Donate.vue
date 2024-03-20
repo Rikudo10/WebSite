@@ -15,7 +15,7 @@ const { DonatePage } = useDonate();
         </div>
         </div>
         <img
-          class="object-fill h-[650px] w-[100%]"
+          class="object-cover h-[650px] w-[100%]"
           src="../../assets/Images/donate.jpg"
           alt=""
         />

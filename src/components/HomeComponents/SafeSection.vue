@@ -18,7 +18,7 @@ const { HomePage } = useHome();
       <!-- Added gradient overlay -->
     </div>
     <div class="z-10 relative w-full">
-      <div class="w-[40%] xl:ml-[41%] ml-auto pt-64">
+      <div class="w-[40%] ml-[41%]  pt-64">
         <div class="">
           <h1
             class="text-white text-6xl pb-6 font-bold text-right"

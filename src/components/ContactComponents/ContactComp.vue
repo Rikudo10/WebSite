@@ -18,7 +18,7 @@ const { ContactPage } = useContact();
                 <div class="justify-center grid 2xl:pb-12 pb-8 ">
                   <chat />
                 </div>
-                <h3 class="text-center text-2xl text-black pb-4 font-bold" v-text="ContactPage[0].ContactInfo.title2"  />
+                <h3 class="text-center xl:text-2xl text-black pb-4 font-bold" v-text="ContactPage[0].ContactInfo.title2"  />
                 <div class="h-22">
                   <p class="text-center " v-text="ContactPage[0].ContactInfo.description"  />
                   <span class="text-white"></span>
@@ -35,7 +35,7 @@ const { ContactPage } = useContact();
                 <div class="justify-center  grid 2xl:pb-12 pb-8">
                   <support />
                 </div>
-                <h3 class="text-center text-2xl text-black pb-4 font-bold" v-text="ContactPage[0].ContactInfo.title3"  />
+                <h3 class="text-center xl:text-2xl text-black pb-4 font-bold" v-text="ContactPage[0].ContactInfo.title3"  />
                 <div class="h-22">
                   <p class="text-center " v-text="ContactPage[0].ContactInfo.description2"  />
                 </div>
