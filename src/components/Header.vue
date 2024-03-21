@@ -1,94 +1,115 @@
 <script setup>
 import birds from "../assets/icons/birds.vue";
 import logo from "../assets/icons/logo.vue";
+
+import { onMounted } from "vue";
+import { initFlowbite } from "flowbite";
+
+// initialize components based on data attribute selectors
+onMounted(() => {
+  initFlowbite();
+});
 </script>
 
 <template>
-  <nav class="bg-[#222] fixed w-full z-20 top-0 start-0">
-    <div class="w-full flex flex-wrap items-center justify-between mx-auto p-4">
-      <div class="flex w-full gap-2 justify-center">
-        <button class="bg-[#eb5757] text-white py-1 px-5 rounded-full">
-          Announcement
-        </button>
-        <p class="text-white text-[20px]">How we're responding to COVID-19</p>
+  <nav class="bg-[red]">
+    <div class="bg-black w-full">
+      <div class="md:flex  grid  md:gap-6 gap-2 py-4 justify-center">
+        <button class="text-white  bg-[red] w-1/2 md:w-auto md:mx-0 mx-auto px-4 py-[5px] rounded-full">Announcement</button>
+        <h2 class="text-white text-2xl">How we're responding to COVID-19</h2>
       </div>
-      <div class="hidden w-full lg2:block lg2:w-auto" id="navbar-default"></div>
     </div>
-  </nav>
-  <nav class="bg-[#eb5757] fixed w-full z-20 top-[62px] start-0">
     <div
-      class="w-[62%] ml-[19%] flex flex-wrap justify-between items-center p-4"
+      class="  ml-[19%] w-[70%] flex flex-wrap items-center justify-between  p-4"
     >
-      <div class="">
-        <router-link to="/">
-          <logo />
-        </router-link>
-      </div>
-      <div class="">
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg2:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-default"
-          aria-expanded="false"
+      <router-link to="/">
+        <logo />
+      </router-link>
+      
+      <button
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 17 14"
         >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
-        </button>
-      </div>
-      <div class="hidden lg2:block lg2:w-auto" id="navbar-default">
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15"
+          />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex flex-col p-4 lg2:p-0 mt-4 border rounded-lg lg2:flex-row lg2:space-x-10 rtl:space-x-reverse lg2:mt-0 lg2:border-0"
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row 2xl:space-x-12 rtl:space-x-reverse md:mt-0"
         >
           <router-link to="/">
-            <li class="hover:bg-black px-2 rounded-md">
-              <a href="#" class="block text-white md:p-0" aria-current="page"
+            <li class="hover:bg-black px-4 py-1 rounded">
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded md:p-0"
+                aria-current="page"
                 >Home</a
               >
             </li>
           </router-link>
           <router-link to="/About">
-            <li class="hover:bg-black px-2 rounded-md">
-              <a href="#" class="block text-white md:p-0">About</a>
+            <li class="hover:bg-black px-4 py-1 rounded">
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded md:border-0 md:p-0"
+                >About</a
+              >
             </li>
           </router-link>
           <router-link to="/Shop">
-            <li class="hover:bg-black px-2 rounded-md">
-              <a href="#" class="block text-white md:p-0">Shop</a>
+            <li class="hover:bg-black px-4 py-1 rounded">
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded md:border-0 md:p-0"
+                >Shop</a
+              >
             </li>
           </router-link>
           <router-link to="/Donate">
-            <li class="hover:bg-black px-2 rounded-md">
-              <a href="#" class="block text-white md:p-0">Donate</a>
+            <li class="hover:bg-black px-4 py-1 rounded">
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded md:border-0 md:p-0"
+                >Donate</a
+              >
             </li>
           </router-link>
           <router-link to="/Contact">
-            <li class="hover:bg-black px-2 rounded-md">
-              <a href="#" class="block text-white md:p-0">Contact</a>
+            <li class="hover:bg-black px-4 py-1 rounded">
+              <a
+                href="#"
+                class="block py-2 px-3 text-white rounded md:border-0 md:p-0"
+                >Contact</a
+              >
             </li>
           </router-link>
-          <li class="hover:bg-black px-2 rounded-md">
-            <div
-              class="rounded-full text-black bg-white text-center w-[16px] h-[16px] text-[11px] translate-x-6 -translate-y-1 absolute"
-            >
-              3
-            </div>
-            <birds />
-          </li>
+          <button>
+            <li class=" hidden md:block  bg-black md:px-4 py-1 rounded">
+              <birds />
+              <span
+                class="text-black bg-white rounded-full px-2 absolute translate-x-4 -translate-y-9"
+              >
+                3
+              </span>
+            </li>
+          </button>
         </ul>
       </div>
     </div>
