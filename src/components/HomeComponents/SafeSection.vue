@@ -9,7 +9,7 @@ const { HomePage } = useHome();
     <div class="">
       <img
         class="w-full object-cover h-[700px] absolute"
-        src="../../assets/Images/Cover2.jpg"
+        src="../../assets/Images/cover2.jpg"
         alt=""
       />
       <div
