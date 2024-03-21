@@ -1,5 +1,6 @@
 <script setup>
 import Logo from "../assets/icons/logo.vue";
+
 </script>
 <template>
   <footer class="bg-[#222222] pb-4 p-16">
@@ -10,16 +11,10 @@ import Logo from "../assets/icons/logo.vue";
             <Logo />
           </router-link>
           </div>
-     <div class="flex flex-wrap items-center gap-4 mr-[17%]">
-          <a href="#"
-            ><img class="w-6 h-6" src="../assets/icons/Twitter.svg" alt="Logo"
-          /></a>
-          <a href="#"
-            ><img class="w-6 h-6" src="../assets/icons/Facebook.svg" alt="Logo"
-          /></a>
-          <a href="#"
-            ><img class="w-6 h-6" src="../assets/icons/insta.svg" alt="Logo"
-          /></a>
+          <div class="flex flex-wrap items-center gap-4 mr-[17%]">
+          <a href="#"><img class="w-6 h-6" src="../assets/icons/Twitter.svg" alt="Twitter Icon"/></a>
+          <a href="#"><img class="w-6 h-6" src="../assets/icons/Facebook.svg" alt="Facebook Icon"/></a>
+          <a href="#"><img class="w-6 h-6" src="../assets/icons/Insta.svg" alt="Instagram Icon"/></a>
         </div>
       </div>
 
