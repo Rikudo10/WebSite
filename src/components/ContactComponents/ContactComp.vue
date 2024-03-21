@@ -6,7 +6,7 @@ const { ContactPage } = useContact();
 </script>
 
 <template>
-    <div class="mt-28">
+    <div class="">
       <div class="flex">
         <div class=" bg-[#222] w-[60%]">
           <div class="pt-24  ml-[33%]">
