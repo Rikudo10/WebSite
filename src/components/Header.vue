@@ -12,7 +12,7 @@ import logo from "../assets/icons/logo.vue";
         </button>
         <p class="text-white text-[20px]">How we're responding to COVID-19</p>
       </div>
-      <div class="hidden w-full lg:block lg:w-auto" id="navbar-default"></div>
+      <div class="hidden w-full lg2:block lg2:w-auto" id="navbar-default"></div>
     </div>
   </nav>
   <nav class="bg-[#eb5757] fixed w-full z-20 top-[62px] start-0">
@@ -28,7 +28,7 @@ import logo from "../assets/icons/logo.vue";
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg2:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -50,9 +50,9 @@ import logo from "../assets/icons/logo.vue";
           </svg>
         </button>
       </div>
-      <div class="hidden lg:block lg:w-auto" id="navbar-default">
+      <div class="hidden lg2:block lg2:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex flex-col p-4 lg:p-0 mt-4 border rounded-lg lg:flex-row lg:space-x-10 rtl:space-x-reverse lg:mt-0 lg:border-0"
+          class="font-medium flex flex-col p-4 lg2:p-0 mt-4 border rounded-lg lg2:flex-row lg2:space-x-10 rtl:space-x-reverse lg2:mt-0 lg2:border-0"
         >
           <router-link to="/">
             <li class="hover:bg-black px-2 rounded-md">
