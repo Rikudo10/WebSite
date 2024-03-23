@@ -12,20 +12,29 @@ onMounted(() => {
 </script>
 
 <template>
-  <nav class="bg-[red]">
+  <nav class="bg-[red] w-full">
     <div class="bg-black w-full">
-      <div class="md:flex  grid  md:gap-6 gap-2 py-4 justify-center">
-        <button class="text-white  bg-[red] w-1/2 md:w-auto md:mx-0 mx-auto md:px-4 py-[5px] rounded-full">Announcement</button>
-        <h2 class="text-white xl:text-2xl">How we're responding to COVID-19</h2>
+
+      <div
+        class="md:flex min-[320px]:flex-col grid md:gap-6 gap-2 py-4 justify-center"
+      >
+        <button
+          class="text-white bg-[red] w-1/2 md:w-[13%] justify-center mx-auto px-4 py-[5px] rounded-full"
+        >
+          Announcement
+        </button>
+        <h2 class="text-white text-2xl min-[320px]:text-center">
+          How we're responding to COVID-19
+        </h2>
       </div>
     </div>
     <div
-      class="  ml-[19%] w-[70%] flex flex-wrap items-center justify-between  p-4"
+      class="ml-[19%] w-[70%] flex flex-wrap items-center justify-between p-4"
     >
       <router-link to="/">
         <logo />
       </router-link>
-      
+
       <button
         data-collapse-toggle="navbar-default"
         type="button"
@@ -101,7 +110,7 @@ onMounted(() => {
             </li>
           </router-link>
           <button>
-            <li class=" hidden md:block  bg-black md:px-4 py-1 rounded">
+            <li class="hidden md:block bg-black md:px-4 py-1 rounded">
               <birds />
               <span
                 class="text-black bg-white rounded-full px-2 absolute translate-x-4 -translate-y-9"

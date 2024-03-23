@@ -13,15 +13,15 @@ const { AboutPage } = useAbout();
         alt=""
       />
     </div>
-    <div class="z-10 relative w-[80%] p-4 mx-auto ml-[19%]">
+    <div class="z-10 relative w-[80%] p-4 mx-auto ml-[19%] min-[375px]:ml-0">
       <div class="mt-52">
-        <div class="w-[450px]">
+        <div class="md:w-[450px]">
           <h1
             class="text-white text-6xl pb-6 font-bold"
             v-text="AboutPage[0].adventure.title"
           />
         </div>
-        <div class="w-[390px]">
+        <div class="md:w-[390px]">
           <p
             class="text-white text-lg pb-6"
             v-text="AboutPage[0].adventure.description"
