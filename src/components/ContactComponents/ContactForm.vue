@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <div class="mt-20 gap-[10%] flex">
-    <div class="ml-[20%]">
+  <div class="mt-20 gap-[10%] md:flex">
+    <div class="md:ml-[20%] px-4 md:px-0 pb-4 md:pb-0">
       <div>
         <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
         <h5>Acme Outdoors</h5>
@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div class="w-[30%]">
+    <div class="md:w-[30%] px-4 md:px-0 ">
       <h2 class="text-3xl font-bold mb-4">Contact Form</h2>
       <h5 class="mb-4">
         Send us a message and we'll get back to you as soon as we can!

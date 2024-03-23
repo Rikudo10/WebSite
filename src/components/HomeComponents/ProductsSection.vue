@@ -11,7 +11,7 @@ const { HomePage } = useHome();
       <h2 class="text-4xl font-bold" v-text="HomePage[0].products.title5" />
     </div>
 
-    <div class="flex flex-col items-center mb-32 ml-6">
+    <div class="flex flex-col items-center mb-32 mx-4 md:mx-0 md:ml-6">
       <div class="md:flex justify-center gap-4">
         <div class="md:w-[20%] mb-6 ">
           <img
