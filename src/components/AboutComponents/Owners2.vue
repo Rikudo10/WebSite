@@ -5,11 +5,13 @@ const { AboutPage } = useAbout();
 </script>
 
 <template>
-  <div>
-    <div class="flex w-[60%] mx-[20%] px-[5%] mt-[7%] mb-[5%] gap-44">
+  <div class="">
+    <div
+      class="flex flex-col md:flex-row w-[60%] mx-[20%] px-[5%] mt-[7%] mb-[5%] gap-16 md:gap-44"
+    >
       <div class="flex flex-col text-center gap-4">
         <img
-          class="w-[50%] mx-[25%]"
+          class="md:w-[50%] md:mx-[25%]"
           src="../../assets/Images/John.png"
           alt="ph"
         />
@@ -24,7 +26,7 @@ const { AboutPage } = useAbout();
       </div>
       <div class="flex flex-col text-center gap-4">
         <img
-          class="w-[50%] mx-[25%]"
+          class="md:w-[50%] md:mx-[25%]"
           src="../../assets/Images/Jane.png"
           alt="ph"
         />
