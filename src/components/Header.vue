@@ -14,6 +14,7 @@ onMounted(() => {
 <template>
   <nav class="bg-[red] w-full">
     <div class="bg-black w-full">
+
       <div
         class="md:flex min-[320px]:flex-col grid md:gap-6 gap-2 py-4 justify-center"
       >
