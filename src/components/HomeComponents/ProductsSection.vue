@@ -15,7 +15,7 @@ const { HomePage } = useHome();
       <div class="md:flex justify-center gap-4">
         <div class="md:w-[20%] mb-6 ">
           <img
-            class="mb-6 rounded-md h-[100%]"
+            class="mb-6 rounded-md md:h-[100%]"
             src="../../assets/Images/img1.jpg"
             alt=""
           />
@@ -34,7 +34,7 @@ const { HomePage } = useHome();
         </div>
         <div class="md:w-[20%] mb-6">
           <img
-            class="mb-6 rounded-md h-[100%]"
+            class="mb-6 rounded-md md:h-[100%]"
             src="../../assets/Images/img2.jpg"
             alt=""
           />
@@ -53,7 +53,7 @@ const { HomePage } = useHome();
         </div>
         <div class="md:w-[20%] mb-6">
           <img
-            class="mb-6 rounded-md h-[100%]"
+            class="mb-6 rounded-md md:h-[100%]"
             src="../../assets/Images/img3.jpg"
             alt=""
           />
