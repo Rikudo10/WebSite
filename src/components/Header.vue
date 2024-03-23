@@ -15,8 +15,8 @@ onMounted(() => {
   <nav class="bg-[red]">
     <div class="bg-black w-full">
       <div class="md:flex  grid  md:gap-6 gap-2 py-4 justify-center">
-        <button class="text-white  bg-[red] w-1/2 md:w-auto md:mx-0 mx-auto px-4 py-[5px] rounded-full">Announcement</button>
-        <h2 class="text-white text-2xl">How we're responding to COVID-19</h2>
+        <button class="text-white  bg-[red] w-1/2 md:w-auto md:mx-0 mx-auto md:px-4 py-[5px] rounded-full">Announcement</button>
+        <h2 class="text-white xl:text-2xl">How we're responding to COVID-19</h2>
       </div>
     </div>
     <div

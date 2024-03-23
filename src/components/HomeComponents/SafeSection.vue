@@ -8,7 +8,7 @@ const { HomePage } = useHome();
   <div class="relative mb-44 2xl:mb-72">
     <div class="">
       <img
-        class="w-full object-cover h-[700px] absolute"
+        class="md:w-full object-cover h-[550px] md:h-[700px] absolute"
         src="../../assets/Images/cover2.jpg"
         alt=""
       />
@@ -17,11 +17,11 @@ const { HomePage } = useHome();
       ></div>
       <!-- Added gradient overlay -->
     </div>
-    <div class="z-10 relative w-full">
-      <div class="w-[40%] ml-[41%]  pt-64">
-        <div class="">
+    <div class="z-10 relative justify-end md:ml-0  w-full">
+      <div class="md:w-[40%] w-[60%] ml-[30%] justify-end  md:ml-[41%]  pt-64">
+        <div class="w-full ml-auto md:ml-0">
           <h1
-            class="text-white text-6xl pb-6 font-bold text-right"
+            class="text-white text-2xl  md:text-6xl md:pb-6 pb-4 font-bold text-right"
             v-text="HomePage[0].hero.title2"
           />
         </div>
@@ -29,14 +29,14 @@ const { HomePage } = useHome();
           <div class="text-right">
             <!-- Adjusted alignment of description -->
             <p
-              class="text-white text-lg pb-6"
+              class="text-white md:text-lg  pb-6"
               v-text="HomePage[0].hero.description2"
             />
           </div>
           <div class="text-right">
             <!-- Adjusted alignment of button -->
             <button
-              class="bg-white hover:bg-[red] text-[black] font-semibold hover:text-white py-2 px-6 border border-[white] rounded"
+              class="bg-white hover:bg-[red] text-[black] font-semibold hover:text-white py-1 md:py-2 px-6 border border-[white] rounded"
             >
               Read Our Statement
             </button>
